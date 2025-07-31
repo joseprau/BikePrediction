@@ -9,23 +9,23 @@ In this project, I explore historical usage and weather data, perform data analy
 ## Data
 This dataset has been given in a challenge and some of the variables come already normalized, i.e. hum. 
 
-- **dteday:** Date\
-- **season:** Season of the year (1 = spring, 2=summer, 3 = fall, 3 = winter)\
-- **yr:** Year\
-- **mnth:** Month\
-- **hr:** Hour\
-- **holiday:** Binary variable indicating whether was holiday or not.\
-- **weekday:** Day of the week expressed as number, thus ordinal type.\
-- **workingday:** Whether it is a working day or not.\
-- **weathersit:** Weather situation\
-- **temp:** Temperature in Celcious\
-- **atemp:** Temperature sensation ("Feels like")\
-- **hum:** Humidity\
-- **windspeed:** Wind Speed\
-- **cnt:** Number of bikes used. Target Variable\
+- **dteday:** Date
+- **season:** Season of the year (1 = spring, 2=summer, 3 = fall, 3 = winter)
+- **yr:** Year
+- **mnth:** Month
+- **hr:** Hour
+- **holiday:** Binary variable indicating whether was holiday or not.
+- **weekday:** Day of the week expressed as number, thus ordinal type.
+- **workingday:** Whether it is a working day or not.
+- **weathersit:** Weather situation
+- **temp:** Temperature in Celcious
+- **atemp:** Temperature sensation ("Feels like")
+- **hum:** Humidity
+- **windspeed:** Wind Speed
+- **cnt:** Number of bikes used. Target Variable
 
 
-# EDA
+## Exploratory Data Analysis (EDA)
 
 ![alt text](figs/pairplot.png)
 
@@ -84,7 +84,7 @@ This dataset has been given in a challenge and some of the variables come alread
 **Notes:**
 - Now the target variable looks more suitable for applying ML algos.
 
-# Results
+## Results
 The purpose of this project is to forecast the demand for bikes based on some historical and weather data. Because the nature of the problem, I have applied the following basic algorithms which are suitable for this kind of problems:
 - Linear Regression
 - Lasso
@@ -94,4 +94,4 @@ The purpose of this project is to forecast the demand for bikes based on some hi
 - XGBoost
 
 
-# Conclusions
+## Conclusions
